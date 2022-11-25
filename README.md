@@ -22,6 +22,8 @@
 ## (Recommended) Install with conda
     #1. Generate and save image masks
     python gen_ignore_mask.py
-    #2. adversarial examples generation
+    #2. Firstly, you must train the pose estimation network
+    python train.py
+    #3. adversarial examples generation
     python train_adv.py
     
